@@ -1,0 +1,12 @@
+.mainCatalog{
+    height: 5000px;
+     background-color: rgb(78, 78, 78);;
+}
+.catalogContainer{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

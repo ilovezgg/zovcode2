@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Buttons from './header/Buttons'; 
+import Buttons2 from './header/Buttons2';
 import Header from './header/Header'; 
 import Achievments from './achievements/Achievments'; 
 import AboutUs from './abousUs/AboutUs'; 
@@ -11,7 +11,7 @@ import Footer from './footer/Footer';
 const Home = () => {
   return (
     <div>
-         <Buttons />
+         <Buttons2 />
       <Header />
       <Achievments />
       <AboutUs />
